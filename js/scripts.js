@@ -3,7 +3,7 @@ $(document).ready(function(){
     var sentences = $("input#user").val();
     //set up value with the user input
     var splits= sentences.split(' ', );
-    //using .split to slit the string into an array
+    //using .split to split the string into an array
     var newArray = [];
     //creating new empty array
     splits.forEach(function(split) {
